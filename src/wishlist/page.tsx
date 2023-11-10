@@ -1,12 +1,13 @@
 import Container from "@/components/Container";
-import Title from "@/components/title";
+import Title from "@/components/Title";
 import React from "react";
 
-const page = () => {
+const Page = () => {
   return (
     <Container>
       <Title title="Your Wishlist" />
     </Container>
   );
 };
-export default page;
+
+export default Page;
